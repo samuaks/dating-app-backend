@@ -7,7 +7,7 @@ import Cards from './schema.js'
 const app = express()
 const port = process.env.PORT || 8001
 
-const connection = 'mongodb+srv://admin:chaPha8k@cluster0.nvj0m.mongodb.net/datingdb?retryWrites=true&w=majority'
+const connection = 'mongodb+srv://admin:<password>@cluster0.nvj0m.mongodb.net/datingdb?retryWrites=true&w=majority'
 
 // Middleware
 app.use(express.json())
